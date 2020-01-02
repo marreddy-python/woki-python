@@ -1,5 +1,6 @@
 from flask import Flask
-from flask_cors import CORS
+# from flask_cors import CORS
+from flask.ext.cors import CORS
 from .config import app_config
 from .models import db
 from .views.BlogpostView import user_api as user_blueprint
