@@ -9,6 +9,7 @@ from .views.Users_details import user_details_api as user_details_blueprint
 
 def create_app(env_name):
   
+  
   # app initiliazation
   app = Flask(__name__)
   CORS(app)
