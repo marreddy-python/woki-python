@@ -7,5 +7,5 @@ if __name__ == '__main__':
     env_name = os.getenv('FLASK_ENV')
     app = create_app(env_name)
     # app.run(host='192.168.1.3',port=5000)
-    app.run()
+    app.run(debug=True)
 
